@@ -46,6 +46,12 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
 end
 
+# Seed
+gem 'faker'
+
+# frontend
+gem 'simple_form'
+
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
